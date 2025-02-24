@@ -12,7 +12,7 @@
 
 NAME	= cub3D
 CFLAGS  = -Wextra -Wall -Werror -Ofast -g
-LIBMLX	= ./minilibx-linux
+LIBMLX	= ./minilibx
 LIBS	= $(LIBMLX)/libmlx.a -lX11 -lXext -lm
 HEADERS	= -I ./include -I $(LIBMLX)
 CC = cc

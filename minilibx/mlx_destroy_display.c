@@ -1,22 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   image_utils.c                                      :+:      :+:    :+:   */
+/*   mlx_destroy_display.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gschwart <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: mg <mg@student.42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/24 19:08:22 by gschwart          #+#    #+#             */
-/*   Updated: 2025/02/24 19:08:24 by gschwart         ###   ########.fr       */
+/*   Created: 2020/10/03 18:56:35 by mg                #+#    #+#             */
+/*   Updated: 2020/10/04 01:55:35 by mg               ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "mlx_int.h"
 
-#include "../cub3d.h"
-
-void	set_image_pixel(t_img *image, int x, int y, int color)
+int	mlx_destroy_display(t_xvar *xvar)
 {
-	int	pixel;
-
-	pixel = y * (image->size_line / 4) + x;
-	image->addr[pixel] = color;
+	XCloseDisplay(xvar->display);
 }

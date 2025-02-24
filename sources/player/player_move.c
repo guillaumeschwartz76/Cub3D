@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   player_move.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tguerran <tguerran@student.42lehavre.fr    +#+  +:+       +#+        */
+/*   By: gschwart <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/12/11 16:57:59 by tguerran          #+#    #+#             */
-/*   Updated: 2024/12/18 22:50:43 by tguerran         ###   ########.fr       */
+/*   Created: 2025/02/24 19:07:16 by gschwart          #+#    #+#             */
+/*   Updated: 2025/02/24 19:07:18 by gschwart         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 #include "../cub3d.h"
 
