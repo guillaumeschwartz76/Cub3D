@@ -28,6 +28,17 @@ for example:
 ./cub3D maps/map42.cub 
 ./cub3D maps/test.cub  
 ```
+# Moving controls
+
+* ```w``` move foward
+* ```s``` move backward
+* ```a``` move left
+* ```d``` move right
+
+# Rotate camera
+
+* ```left arrow``` rotate left
+* ```right arrow``` rotate right
 
 ![cub2](https://github.com/guillaumeschwartz76/Cub3D/blob/main/screenshots/cub2.png)
 ![cub3](https://github.com/guillaumeschwartz76/Cub3D/blob/main/screenshots/cub3.png)
