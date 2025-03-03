@@ -29,3 +29,8 @@ for example:
 ./cub3D maps/test.cub  
 ```
 
+![cub2](https://github.com/guillaumeschwartz76/Cub3D/blob/main/screenshots/cub2.png)
+![cub3](https://github.com/guillaumeschwartz76/Cub3D/blob/main/screenshots/cub3.png)
+![cub4](https://github.com/guillaumeschwartz76/Cub3D/blob/main/screenshots/cub4.png)
+
+
