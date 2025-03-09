@@ -28,14 +28,14 @@ for example:
 ./cub3D maps/map42.cub 
 ./cub3D maps/test.cub  
 ```
-# Moving controls
+## Moving controls
 
 * ```w``` move foward
 * ```s``` move backward
 * ```a``` move left
 * ```d``` move right
 
-# Rotate camera
+## Rotate camera
 
 * ```left arrow``` rotate left
 * ```right arrow``` rotate right
