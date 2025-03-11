@@ -16,7 +16,7 @@ You can go to the directory for compilation and can do ```make```.
 
 ## Executing Cub3D
 
-For executing the programm, you must choose a map which is on maps directory.
+For executing the program, you must choose a map which is on maps directory.
 Some maps are deliberately false to test parsing.
 
 ```shell
